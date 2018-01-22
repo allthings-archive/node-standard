@@ -1,4 +1,7 @@
 # package-scripts
+
+i'm getting tired of repeating these everywhere, so... this.
+
 useful package scripts used by projects, mainly for deploy
 
 [WIP]
