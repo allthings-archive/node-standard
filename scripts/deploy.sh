@@ -50,6 +50,7 @@ yarn run clean
 log "Building assets"
 yarn build
 
+# @TODO: check if public/ exists, only-then run:
 log "Deploying static assets to AWS S3"
 ./bin/deploy-public.sh \
   --exclude 'static/js/prod/*'
@@ -59,5 +60,6 @@ log "Deploying static assets to AWS S3"
   --include 'static/js/prod/*' \
   --cache-control 'public,max-age=31536000,immutable'
 
-log "Deploying server side rendering Lambda/API Gateway service"
+# @TODO: check if serverless.yml exists, only-then run:
+log "Deploying service to AWS"
 aws-vault exec allthings-deploy -- serverless deploy -v
