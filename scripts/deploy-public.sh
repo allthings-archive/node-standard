@@ -27,7 +27,7 @@ callback_with_options() {
 # Syncs the puplic files to S3 (excluding hidden files):
 sync() {
   aws-vault exec "$ROLE" -- \
-    aws s3 sync public/ "s3://$BUCKET/$PROJECT/$STAGE/" \
+    aws s3 sync public/ "s3://$PUBLIC_BUCKET/$PROJECT/$STAGE/" \
       --exclude '.*' \
       --exclude '*/.*' \
       "$@"
