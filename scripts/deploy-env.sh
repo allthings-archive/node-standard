@@ -22,6 +22,9 @@ export NODE_ENV=production
 ROLE="$(jq -r '.config.deployProfile' package.json)"
 export ROLE
 
+PUBLIC_BUCKET="$(jq -r '.config.publicS3Bucket' package.json)"
+export PUBLIC_BUCKET
+
 # Store the current working directory:
 CWD="$PWD"
 
