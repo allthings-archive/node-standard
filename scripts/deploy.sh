@@ -40,7 +40,7 @@ serverless
 EOL
 
 log "Check integrity. Run 'yarn' if it fails"
-yarn check --integrity --production=false
+yarn check
 
 log "Deploying $PROJECT to $STAGE"
 
@@ -62,4 +62,9 @@ log "Deploying static assets to AWS S3"
 
 # @TODO: check if serverless.yml exists, only-then run:
 log "Deploying service to AWS"
-aws-vault exec allthings-deploy -- serverless deploy -v
+
+if [ -n "$ROLE" ]; then
+  aws-vault exec "$ROLE" -- serverless deploy -v
+else
+  serverless deploy -v
+fi
