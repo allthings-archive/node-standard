@@ -40,8 +40,7 @@ serverless
 EOL
 
 log "Checking for other conflicting running processes"
-PS_COUNT=$(ps axu | grep -c -E "(.*)node(.*)\/$PROJECT\/node_modules(.*)")
-if [ "$PS_COUNT" -gt "0" ]; then
+if [ $(ps axu | grep -c -E "(.*)node(.*)\/$PROJECT\/node_modules(.*)") -gt "0" ]; then 
   printf "\nAnother yarn or npm process is running in this project.\n"
   printf "Please stop it first.\n\n\n"
   exit 1
