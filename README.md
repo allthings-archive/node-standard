@@ -1,6 +1,6 @@
 # Allthings Common/Standard Node-related packages
 
-A collection of often-repeated code, scripts, utilities, lint rules, and configuration which end up getting repeated throughout our packages.
+A collection of often-repeated code, scripts, utilities, lint rules, and configuration which end up getting repeated throughout packages.
 
 ## Packages
 
@@ -8,5 +8,5 @@ A collection of often-repeated code, scripts, utilities, lint rules, and configu
   Collection of node package scripts for deployment, etc writemorehere TODO
 * [tslint-preset](/packages/tslint-preset)
   TSLint rules for TypeScript projects
-* [ts-utils](/packages/ts-utils)
-  Common TypeScript utility functions
+* [node-utils](/packages/node-utils)
+  Common utility functions

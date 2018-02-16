@@ -1,0 +1,16 @@
+{
+  "name": "@allthings/node-utils",
+  "version": "1.0.0",
+  "description": "Common utility functions",
+  "main": "dist/index.js",
+  "repository": "https://github.com/allthings/package-scripts",
+  "author": "Allthings GmbH",
+  "license": "MIT",
+  "private": false,
+  "files": ["dist/"],
+  "dependencies": {},
+  "devDependencies": {
+    "@allthings/tslint-preset": "1.0.0",
+    "tslint": "5.9.1"
+  }
+}
