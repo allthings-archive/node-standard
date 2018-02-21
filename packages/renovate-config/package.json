@@ -1,0 +1,25 @@
+{
+  "name": "@allthings/renovate-config",
+  "version": "1.0.0",
+  "description": "Allthings' Renovate config preset",
+  "author": "Allthings",
+  "license": "MIT",
+  "homepage": "https://github.com/singapore/renovate-config",
+  "repository": "https://github.com/allthings/node-standard",
+  "bugs": {
+    "url": "https://github.com/allthings/node-standard/issues"
+  },
+  "renovate-config": {
+    "default": {
+      "extends": ["config:base"],
+      "schedule": ["after 2am and before 3am"],
+      "updateNotScheduled": false,
+      "packageRules": [
+        {
+          "packageNames": ["aws-sdk"],
+          "schedule": ["after 2am and before 3am on sunday"]
+        }
+      ]
+    }
+  }
+}

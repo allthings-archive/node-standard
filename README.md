@@ -6,7 +6,9 @@ A collection of often-repeated code, scripts, utilities, lint rules, and configu
 
 * [package-scripts](/packages/package-scripts)
   Collection of node package scripts for deployment, etc writemorehere TODO
-* [tslint-preset](/packages/tslint-preset)
-  TSLint rules for TypeScript projects
 * [node-utils](/packages/node-utils)
   Common utility functions
+* [tslint-preset](/packages/tslint-preset)
+  TSLint rules for TypeScript projects
+* [renovate-config](/packages/renovate-config)
+  Renovate configuration for Node.js projects
