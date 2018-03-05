@@ -13,6 +13,7 @@
     "default": {
       "extends": ["config:base"],
       "schedule": ["after 2am and before 3am"],
+      "prHourlyLimit": 5,
       "updateNotScheduled": false,
       "packageRules": [
         {
