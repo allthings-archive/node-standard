@@ -9,7 +9,7 @@
   "private": false,
   "files": ["tslint.json"],
   "dependencies": {
-    "tslint-config-prettier": "1.7.0",
+    "tslint-config-prettier": "1.9.0",
     "tslint-immutable": "4.5.1",
     "tslint-react": "3.4.0"
   },
