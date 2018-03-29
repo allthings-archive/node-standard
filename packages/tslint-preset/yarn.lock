@@ -206,9 +206,9 @@ tslint-immutable@4.5.1:
   version "4.5.1"
   resolved "https://registry.yarnpkg.com/tslint-immutable/-/tslint-immutable-4.5.1.tgz#85cf4366ae60acb341ebdd3e1ea8b670d6cf2a11"
 
-tslint-react@3.4.0:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/tslint-react/-/tslint-react-3.4.0.tgz#12ed3fc7063f3df988370206736b50acbce07e59"
+tslint-react@3.5.1:
+  version "3.5.1"
+  resolved "https://registry.yarnpkg.com/tslint-react/-/tslint-react-3.5.1.tgz#a5ca48034bf583fb63b42763bb89fa23062d5390"
   dependencies:
     tsutils "^2.13.1"
 
