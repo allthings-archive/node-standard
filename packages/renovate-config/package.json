@@ -13,8 +13,9 @@
     "default": {
       "extends": ["config:base"],
       "schedule": ["after 2am and before 3am"],
-      "prHourlyLimit": 5,
-      "updateNotScheduled": false,
+      "prHourlyLimit": 10,
+      "rebaseStalePrs": true,
+      "updateNotScheduled": true,
       "packageRules": [
         {
           "packageNames": ["aws-sdk"],
