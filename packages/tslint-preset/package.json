@@ -10,7 +10,7 @@
   "files": ["tslint.json"],
   "dependencies": {
     "tslint-config-prettier": "1.10.0",
-    "tslint-immutable": "4.5.2",
+    "tslint-immutable": "4.5.3",
     "tslint-react": "3.5.1"
   },
   "devDependencies": {
