@@ -1,3 +1,11 @@
 {
-  "extends": ["@allthings"]
+  "extends": ["@allthings"],
+  "pathRules": [{
+    "paths": ["packages/tslint-preset/package.json"],
+    "automerge": true,
+    "bumpVersion": "minor",
+    "major": {
+      "automerge": false
+    }
+  }]
 }
