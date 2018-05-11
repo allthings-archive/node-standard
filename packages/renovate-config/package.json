@@ -1,6 +1,6 @@
 {
   "name": "@allthings/renovate-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Allthings' Renovate config preset",
   "author": "Allthings",
   "license": "MIT",
@@ -12,7 +12,15 @@
   "renovate-config": {
     "default": {
       "extends": ["config:base"],
-      "schedule": ["after 2am and before 3am"],
+      "automerge": false,
+      "automergeType": "branch-push",
+      "patch": {
+        "automerge": true
+      },
+      "schedule": [
+        "after 2am and before 3am",
+        "after 9am and before 6pm every weekday"
+      ],
       "prHourlyLimit": 10,
       "rebaseStalePrs": true,
       "updateNotScheduled": true,
