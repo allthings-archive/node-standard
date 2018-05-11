@@ -4,7 +4,8 @@
   "description": "Allthings' Renovate config preset",
   "author": "Allthings",
   "license": "MIT",
-  "homepage": "https://github.com/singapore/renovate-config",
+  "homepage":
+    "https://github.com/allthings/node-standard/tree/master/packages/renovate-config",
   "repository": "https://github.com/allthings/node-standard",
   "bugs": {
     "url": "https://github.com/allthings/node-standard/issues"
