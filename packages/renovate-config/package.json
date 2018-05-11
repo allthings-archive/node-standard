@@ -1,6 +1,6 @@
 {
   "name": "@allthings/renovate-config",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Allthings' Renovate config preset",
   "author": "Allthings",
   "license": "MIT",
@@ -15,22 +15,23 @@
       "extends": ["config:base"],
       "automerge": false,
       "automergeType": "branch-push",
-      "patch": {
-        "automerge": true
-      },
-      "schedule": [
-        "after 2am and before 3am",
-        "after 9am and before 6pm every weekday"
-      ],
-      "prHourlyLimit": 10,
-      "rebaseStalePrs": true,
-      "updateNotScheduled": true,
       "packageRules": [
         {
           "packageNames": ["aws-sdk"],
           "schedule": ["after 2am and before 3am on sunday"]
         }
-      ]
+      ],
+      "patch": {
+        "automerge": true
+      },
+      "prHourlyLimit": 10,
+      "rebaseStalePrs": true,
+      "schedule": [
+        "after 2am and before 3am",
+        "after 8am and before 7pm every weekday"
+      ],
+      "separatePatchReleases": true,
+      "updateNotScheduled": true
     }
   }
 }
