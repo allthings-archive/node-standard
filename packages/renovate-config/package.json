@@ -33,7 +33,7 @@
       ],
       "separatePatchReleases": true,
       "timezone": "Europe/Berlin",
-      "updateNotScheduled": false,
+      "updateNotScheduled": false
     }
   }
 }
