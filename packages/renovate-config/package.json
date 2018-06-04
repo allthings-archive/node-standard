@@ -15,6 +15,9 @@
       "extends": ["config:base"],
       "automerge": false,
       "automergeType": "branch-push",
+      "minor": {
+        "automerge": true
+      },
       "packageRules": [
         {
           "packageNames": ["aws-sdk"],
@@ -24,14 +27,13 @@
       "patch": {
         "automerge": true
       },
-      "prHourlyLimit": 10,
       "rebaseStalePrs": true,
       "schedule": [
-        "after 2am and before 3am",
-        "after 8am and before 7pm every weekday"
+        "after 8am and before 6pm every weekday"
       ],
       "separatePatchReleases": true,
-      "updateNotScheduled": true
+      "timezone": "Europe/Berlin",
+      "updateNotScheduled": false,
     }
   }
 }
