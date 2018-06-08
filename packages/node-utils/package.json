@@ -10,7 +10,7 @@
   "files": ["dist/"],
   "dependencies": {},
   "devDependencies": {
-    "@allthings/tslint-preset": "1.0.1",
+    "@allthings/tslint-preset": "1.5.0",
     "tslint": "5.10.0"
   }
 }
