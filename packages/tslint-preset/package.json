@@ -1,13 +1,15 @@
 {
   "name": "@allthings/tslint-preset",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "Allthings tslint rules",
   "main": "tslint.json",
   "repository": "https://github.com/allthings/node-standard",
   "author": "Allthings GmbH",
   "license": "MIT",
   "private": false,
-  "files": ["tslint.json"],
+  "files": [
+    "tslint.json"
+  ],
   "dependencies": {
     "tslint-config-prettier": "1.13.0",
     "tslint-immutable": "4.5.4",
