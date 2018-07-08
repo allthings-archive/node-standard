@@ -49,6 +49,7 @@
     "readonly-array": true,
     "no-let": true,
     "no-object-mutation": true,
+    "no-array-mutation": true,
     "no-delete": true,
 
     "no-this": true,
