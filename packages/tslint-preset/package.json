@@ -11,16 +11,16 @@
     "tslint.json"
   ],
   "dependencies": {
-    "tslint-config-prettier": "1.13.0",
+    "tslint-config-prettier": "1.14.0",
     "tslint-immutable": "4.6.0",
     "tslint-react": "3.6.0"
   },
   "devDependencies": {
-    "tslint": "5.10.0",
+    "tslint": "5.11.0",
     "typescript": "2.9.2"
   },
   "peerDependencies": {
-    "tslint": ">= 5.9.1",
-    "typescript": ">= 2.7.2"
+    "tslint": ">= 5.10.0",
+    "typescript": ">= 2.9.2"
   }
 }
