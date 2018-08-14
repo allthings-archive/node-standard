@@ -1,6 +1,6 @@
 {
   "name": "@allthings/tslint-preset-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Allthings tslint rules for react projects",
   "main": "tslint.json",
   "repository": "https://github.com/allthings/node-standard",
@@ -11,7 +11,6 @@
     "tslint.json"
   ],
   "dependencies": {
-    "@allthings/tslint-preset": "1.10.1",
     "tslint-config-prettier": "1.14.0",
     "tslint-immutable": "4.6.0",
     "tslint-react": "3.6.0"
@@ -21,6 +20,7 @@
     "typescript": "2.9.2"
   },
   "peerDependencies": {
+    "@allthings/tslint-preset": ">= 1.10.1",
     "tslint": ">= 5.10.0",
     "typescript": ">= 2.9.2"
   }
