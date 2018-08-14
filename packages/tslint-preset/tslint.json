@@ -11,7 +11,7 @@
     "jsdoc-format": true,
     "comment-format": [true, "check-space"],
     "indent": [true, "spaces"],
-    "quotemark": [true, "single", "avoid-escape", "jsx-double"],
+    "quotemark": [true, "single", "avoid-escape", "jsx-double", "avoid-template"],
     "semicolon": [true, "never", "ignore-bound-class-methods"],
     "no-trailing-whitespace": true,
     "whitespace": [
@@ -73,10 +73,6 @@
     "no-invalid-template-strings": true,
     "no-inferrable-types": true,
 
-    "prefer-template": [true, "allow-single-concat"],
-    
-    "quotemark": {
-      "options": ["single", "avoid-escape", "avoid-template"]
-    }
+    "prefer-template": [true, "allow-single-concat"]
   }
 }
