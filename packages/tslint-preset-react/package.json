@@ -1,0 +1,26 @@
+{
+  "name": "@allthings/tslint-preset-react",
+  "version": "1.0.0",
+  "description": "Allthings react tslint rules",
+  "main": "tslint.json",
+  "repository": "https://github.com/allthings/node-standard",
+  "author": "Allthings GmbH",
+  "license": "MIT",
+  "private": false,
+  "files": [
+    "tslint.json"
+  ],
+  "dependencies": {
+    "@allthings/ts-lint": "1.14.0",
+    "tslint-immutable": "4.6.0",
+    "tslint-react": "3.6.0"
+  },
+  "devDependencies": {
+    "tslint": "5.11.0",
+    "typescript": "2.9.2"
+  },
+  "peerDependencies": {
+    "tslint": ">= 5.10.0",
+    "typescript": ">= 2.9.2"
+  }
+}
