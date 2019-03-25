@@ -202,9 +202,11 @@ tslint-config-prettier@1.17.0:
   version "1.17.0"
   resolved "https://registry.yarnpkg.com/tslint-config-prettier/-/tslint-config-prettier-1.17.0.tgz#946ed6117f98f3659a65848279156d87628c33dc"
 
-tslint-immutable@4.9.1:
-  version "4.9.1"
-  resolved "https://registry.yarnpkg.com/tslint-immutable/-/tslint-immutable-4.9.1.tgz#ca4555d04c3995c92c912b9e57502d423151002c"
+tslint-immutable@5.5.2:
+  version "5.5.2"
+  resolved "https://registry.yarnpkg.com/tslint-immutable/-/tslint-immutable-5.5.2.tgz#57331f6100156fa7ac4503e121cd2616df5bab8a"
+  dependencies:
+    tsutils "^2.28.0 || ^3.0.0"
 
 tslint-react@3.6.0:
   version "3.6.0"
@@ -238,6 +240,12 @@ tsutils@^2.13.1:
 tsutils@^2.27.2:
   version "2.28.0"
   resolved "https://registry.npmjs.org/tsutils/-/tsutils-2.28.0.tgz#6bd71e160828f9d019b6f4e844742228f85169a1"
+  dependencies:
+    tslib "^1.8.1"
+
+"tsutils@^2.28.0 || ^3.0.0":
+  version "3.9.1"
+  resolved "https://registry.yarnpkg.com/tsutils/-/tsutils-3.9.1.tgz#2a40dc742943c71eca6d5c1994fcf999956be387"
   dependencies:
     tslib "^1.8.1"
 
