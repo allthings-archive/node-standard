@@ -1,6 +1,6 @@
 {
   "name": "@allthings/tslint-preset",
-  "version": "1.21.0",
+  "version": "2.0.0",
   "description": "Allthings tslint rules",
   "main": "tslint.json",
   "repository": "https://github.com/allthings/node-standard",
