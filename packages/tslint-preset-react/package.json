@@ -11,7 +11,7 @@
     "tslint.json"
   ],
   "dependencies": {
-    "tslint-config-prettier": "1.17.0",
+    "tslint-config-prettier": "1.18.0",
     "tslint-immutable": "5.5.2",
     "tslint-react": "4.0.0"
   },
