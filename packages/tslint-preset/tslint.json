@@ -67,7 +67,6 @@
     "no-unnecessary-callback-wrapper": true,
     "no-for-in-array": true,
     "no-string-throw": true,
-    "no-use-before-declare": true,
     
     "no-string-literal": true,
     "no-invalid-template-strings": true,
