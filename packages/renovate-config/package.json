@@ -14,7 +14,7 @@
     "default": {
       "extends": ["config:base"],
       "automerge": false,
-      "automergeType": "branch-push",
+      "automergeType": "branch",
       "commitMessagePrefix": "⬆️ ",
       "minor": {
         "automerge": true
@@ -30,9 +30,10 @@
       },
       "rebaseStalePrs": true,
       "schedule": [
-        "after 8am and before 6pm every weekday"
+        "after 7pm on friday",
+        "every weekend",
+        "before 8am on monday"
       ],
-      "separatePatchReleases": true,
       "timezone": "Europe/Berlin",
       "updateNotScheduled": false
     }
