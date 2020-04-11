@@ -17,6 +17,7 @@
       "automerge": false,
       "automergeType": "branch",
       "commitMessagePrefix": "⬆️ ",
+      "labels": ["renovate"],
       "minor": {
         "automerge": true
       },
