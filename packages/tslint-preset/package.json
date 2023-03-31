@@ -1,6 +1,6 @@
 {
   "name": "@allthings/tslint-preset",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Allthings tslint rules",
   "main": "tslint.json",
   "repository": "https://github.com/allthings/node-standard",
@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "tslint": "5.16.0",
-    "typescript": "3.6.3"
+    "typescript": "5.0.3"
   },
   "peerDependencies": {
     "tslint": ">= 5.10.0",
