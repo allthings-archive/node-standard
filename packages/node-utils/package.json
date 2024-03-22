@@ -11,6 +11,6 @@
   "dependencies": {},
   "devDependencies": {
     "@allthings/tslint-preset": "2.0.0",
-    "tslint": "5.16.0"
+    "tslint": "6.1.3"
   }
 }
